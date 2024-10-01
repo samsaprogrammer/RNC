@@ -1,0 +1,192 @@
+.notification
+{
+    border: 1px solid black;
+    border-radius: 0px 0px 100px 0px;
+    height: 400px; 
+}
+.slider-text
+{
+    opacity: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.splide__slide
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.splide__slide:hover .slider-text
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.slider-btn
+{
+    background-color: #cc9c20;
+    color: white;
+    font-weight: 600;
+}
+.slider-btn:hover
+{
+    transform: scale(1.2);
+    color: white;
+    font-weight: bold;
+    background-color: #0a473f;
+}
+.notice
+{
+    color: #0a473f;
+}
+.dropbtn
+{
+    position: relative;
+}
+.drop-content
+{
+    position: absolute;
+    display: none;
+    background-color: rgb(12, 12, 12);
+    transition: 0.5s ease;
+    width: 30%;
+    border-radius: 30px;
+}
+.drop-item:hover .drop-content
+{
+    display: block;
+    transition: 0.8s ease;
+}
+.dropdown-menu
+{
+ display: none;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.dropdown-menu
+{
+    min-width:300px;
+}
+.dropdown-menu li a
+{
+    color: #16423C;
+    font-weight: 600;
+}
+.dropdown-item
+{
+    padding-left: 20px;
+    text-align: justify;
+}
+.dropdown-item:hover
+{
+    background-color: #16423C;
+    color: white;
+    transition: 0.5s ease;
+}
+.nav-item:hover
+{
+    background-color: #cc9c20;
+    padding: 0;
+    transition: 0.5s ease;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-item:hover .nav-link
+{
+    color: #0a473f;
+}
+#slider
+{
+        height: 250px;
+        border: 1px solid;
+}
+.slider-text
+{
+    opacity: 0;
+    font-family: "Open sans", sans-serif;
+    font-size: xx-large;
+}
+.facilities
+{
+    background-color: #E9EFEC; 
+    border: 2px solid #E9EFEC;
+}
+.facilities:hover
+{
+    background-color: #E9EFEC; 
+    border: 2px solid #30485c;
+} 
+.faculty
+{
+    border: 0;
+    text-align: center;
+}
+.faculty img 
+{
+    opacity: 1;
+    height: 280px;
+    border-radius: 5px;
+}
+.faculty:hover img
+{
+    opacity: 0.3;
+    transition: 0.5s ease;
+}
+.faculty:hover .faculty-text
+{
+    opacity: 1;
+    margin-top: -180px;
+    background-color: #16423C;
+    color: white;
+    transition: 0.4s ease;
+}
+.card
+{
+    border: 0;
+}
+.foot-btn
+{
+    border: 1px solid white;
+}
+.foot-btn:hover
+{
+    border: 1px solid white;
+    background-color: #0a473f;
+}
+.gallery
+{
+    height: 98px;
+}
+.home {
+    color: #16423C;
+    text-decoration: underline;
+}
+
+.home:hover {
+    transform: scale(1.2);
+}
+.foot
+{
+    color: white;
+}
+.foot:hover
+{
+    color: #cc9c20;
+}
+

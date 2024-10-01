@@ -1,0 +1,43 @@
+.right
+{
+    background-color: #16423c;
+    height: 597px;
+}
+.left
+{
+    height: 597px;
+    background-color: #E9EFEC;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.ad-btn
+{
+    background-color: #C4DAD2;
+    color: #16423c;
+    font-size: large;
+}
+.ad-btn:hover
+{
+    background-color: #16423c;
+    color: #E9EFEC;
+}
+
+::-webkit-scrollbar
+{
+    width: 2px;
+    
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 2px;
+    background-color: grey;
+}
+.card
+{
+    height: 200px; 
+    background-color: white;
+}
+.card:hover
+{
+    background-color: #E9EFEC;
+}
